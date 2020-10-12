@@ -1,0 +1,18 @@
+.mypage_btns {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.mypage_btns .mypage_inform,
+.mypage_btns .mypage_list,
+.mypage_btns .mypage_insurance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3f1f8;
+  width: 330px;
+  height: 400px;
+  font-size: 50px;
+}

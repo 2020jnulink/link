@@ -1,0 +1,71 @@
+.main_title {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: #538ec3;
+  width: 1100px;
+  height: 100px;
+  margin: 0 auto;
+  border-bottom: 2px solid #538ec3;
+}
+.main_title__text {
+  padding-left: 20px;
+}
+
+.signup_main {
+  display: flex;
+}
+.signup_main__que {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.signup_que__name,
+.signup_que__id,
+.signup_que__password,
+.signup_que__resident,
+.signup_que__address,
+.signup_que__phone {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.signup_main__var {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.signup_var__var {
+  margin-top: 30px;
+}
+
+.signup_main__input {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 75px;
+}
+.signup_input__name,
+.signup_input__id,
+.signup_input__password,
+.signup_input__resident,
+.signup_input__address,
+.signup_input__phone {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.signup_complete {
+  margin-top: 150px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.signup_complete__btn {
+  background-color: #d3f1f8;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

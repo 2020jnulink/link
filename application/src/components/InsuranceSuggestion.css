@@ -1,0 +1,28 @@
+.insurance_inform {
+  margin: 50px;
+  font-size: 30px;
+}
+
+.insurance_suggestion {
+  margin-top: 300px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.insurance_yesorno {
+  display: flex;
+  justify-content: center;
+}
+.insurance_yesorno .insurance_yes,
+.insurance_yesorno .insurance_no {
+  margin: 0 50px;
+  margin-top: 50px;
+  width: 200px;
+  height: 100px;
+  background-color: #d3f1f8;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

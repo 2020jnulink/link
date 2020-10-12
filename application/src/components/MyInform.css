@@ -1,0 +1,57 @@
+.myinform_main {
+  display: flex;
+}
+.myinform_main__que {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.myinform_que__name,
+.myinform_que__id,
+.myinform_que__password,
+.myinform_que__resident,
+.myinform_que__address,
+.myinform_que__phone {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.myinform_main__var {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.myinform_var__var {
+  margin-top: 30px;
+}
+
+.myinform_main__input {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 75px;
+}
+.myinform_input__name,
+.myinform_input__id,
+.myinform_input__password,
+.myinform_input__resident,
+.myinform_input__address,
+.myinform_input__phone {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.myinform_complete {
+  margin-top: 150px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.myinform_complete__btn {
+  background-color: #d3f1f8;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

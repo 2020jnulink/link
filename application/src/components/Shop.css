@@ -1,0 +1,21 @@
+.product_AU_img,
+.product_carborn_img,
+.product_delta_img,
+.product_freego_img,
+.product_EZ_img {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  display: inline-block;
+}
+
+.product_gyro_img,
+.product_nano_img,
+.product_papa_img,
+.product_WR_img,
+.product_WW_img {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+  display: inline-block;
+}

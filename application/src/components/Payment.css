@@ -1,0 +1,57 @@
+.payment_main {
+  display: flex;
+}
+.payment_main__que {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.payment_que__insurance,
+.payment_que__product,
+.payment_que__total,
+.payment_que__number,
+.payment_que__password,
+.payment_que__validity {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.payment_main__var {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.payment_var__var {
+  margin-top: 30px;
+}
+
+.payment_main__input {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 75px;
+}
+.payment_input__product,
+.payment_input__insurance,
+.payment_input__total,
+.payment_input__number,
+.payment_input__password,
+.payment_input__validity {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.payment_complete {
+  margin-top: 150px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.payment_complete__btn {
+  background-color: #d3f1f8;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

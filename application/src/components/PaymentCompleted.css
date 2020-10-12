@@ -1,0 +1,38 @@
+.completed_main {
+  display: flex;
+}
+.completed_main__que {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.completed_que__insurance,
+.completed_que__product,
+.completed_que__id {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.completed_main__var {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.completed_var__var {
+  margin-top: 30px;
+}
+
+.completed_complete {
+  margin-top: 150px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.completed_complete__btn {
+  background-color: #d3f1f8;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

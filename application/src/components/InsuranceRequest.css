@@ -1,0 +1,51 @@
+.request_main {
+  display: flex;
+}
+.request_main__que {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.request_que__type,
+.request_que__date,
+.request_que__description {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.request_main__var {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.request_var__var {
+  margin-top: 30px;
+}
+
+.request_main__input {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 75px;
+}
+.request_input__type,
+.request_input__date,
+.request_input__description {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.request_complete {
+  margin-top: 150px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.request_complete__btn {
+  background-color: #d3f1f8;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

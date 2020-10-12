@@ -1,0 +1,57 @@
+.join_main {
+  display: flex;
+}
+.join_main__que {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.join_que__insurance,
+.join_que__name,
+.join_que__address,
+.join_que__phone,
+.join_que__period,
+.join_que__price {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.join_main__var {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.join_var__var {
+  margin-top: 30px;
+}
+
+.join_main__input {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 75px;
+}
+.join_input__insurance,
+.join_input__name,
+.join_input__address,
+.join_input__phone,
+.join_input__period,
+.join_input__price {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.join_complete {
+  margin-top: 150px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.join_complete__btn {
+  background-color: #d3f1f8;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

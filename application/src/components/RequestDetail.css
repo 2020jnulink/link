@@ -1,0 +1,43 @@
+.detail_main {
+  display: flex;
+}
+.detail_main__que {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.detail_title {
+  margin: 80px 50px;
+  margin-bottom: 30px;
+}
+.detail_que__request,
+.detail_que__date,
+.detail_que__progress,
+.detail_que__detail {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.detail_main__var {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.detail_var__var {
+  margin-top: 30px;
+}
+
+.detail_confirm {
+  margin-top: 150px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.detail_confirm__btn {
+  background-color: #d3f1f8;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

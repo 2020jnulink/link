@@ -1,0 +1,28 @@
+.insurance_list {
+  margin-top: 100px;
+}
+.insurance_list .insurance_list_box {
+  border: 3px solid #538ec3;
+  width: 400px;
+  height: 300px;
+  margin-left: 30px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 30px;
+}
+
+.insurance_request {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.insurance_request .insurance_request__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3f1f8;
+  width: 150px;
+  height: 70px;
+}

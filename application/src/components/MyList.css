@@ -1,0 +1,36 @@
+.mylist_main {
+  display: flex;
+}
+.mylist_main__name {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.mylist_name__name {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.mylist_main__var {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.mylist_var__var {
+  margin-top: 30px;
+}
+
+.mylist_confirm {
+  margin-top: 150px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.mylist_confirm__btn {
+  background-color: #d3f1f8;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
