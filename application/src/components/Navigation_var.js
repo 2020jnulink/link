@@ -4,7 +4,7 @@ import "./Navigation_var.css";
 
 class Navigation_var extends Component {
   state = {
-    search: "", // eslint-disable-line no-unused-vars
+    scooterkey: "", // eslint-disable-line no-unused-vars
   };
   handleChange = (e) => {
     this.setState({
@@ -30,16 +30,13 @@ class Navigation_var extends Component {
           <Link className="nav_shop" to="/shop">
             SHOP
           </Link>
-          <Link className="nav_insurance" to="/insurance">
-            INSURANCE
-          </Link>
         </div>
         <div className="nav_search">
           <input
             className="search_input"
-            value={this.state.search} // eslint-disable-line no-unused-vars
+            value={this.state.scooterkey} // eslint-disable-line no-unused-vars
             onChange={this.handleChange}
-            name="search"
+            name="scooterkey"
           />
           <div className="search_text"> Search </div>
         </div>

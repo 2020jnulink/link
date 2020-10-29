@@ -19,15 +19,13 @@ import Product_nano from "./components/Product_nano";
 import Product_papa from "./components/Product_papa";
 import Product_WR from "./components/Product_WR";
 import Product_WW from "./components/Product_WW";
-import InsuranceSuggestion from "./components/InsuranceSuggestion";
-import InsuranceJoin from "./components/InsuranceJoin";
 import Payment from "./components/Payment";
 import PaymentCompleted from "./components/PaymentCompleted";
-import InsuranceList from "./components/InsuranceList";
-import InsuranceRequest from "./components/InsuranceRequest";
-import RequestComplete from "./components/RequestComplete";
-import RequestList from "./components/RequestList";
-import RequestDetail from "./components/RequestDetail";
+import Seller from "./components/Seller";
+import Scooter_Create from "./components/Scooter_Create";
+import Scooter_Change from "./components/Scooter_Change";
+import Scooter_Delete from "./components/Scooter_Delete";
+
 
 function App() {
   return (
@@ -50,18 +48,16 @@ function App() {
       <Route path="/shop/product_papa" component={Product_papa} />
       <Route path="/shop/product_WR" component={Product_WR} />
       <Route path="/shop/product_WW" component={Product_WW} />
-      <Route path="/shop/product/suggestion" component={InsuranceSuggestion} />
-      <Route path="/shop/product/join" component={InsuranceJoin} />
       <Route path="/shop/product/payment" component={Payment} />
       <Route
         path="/shop/product/paymentcompleted"
         component={PaymentCompleted}
       />
-      <Route path="/insurance" exact={true} component={InsuranceList} />
-      <Route path="/insurance/request" component={InsuranceRequest} />
-      <Route path="/insurance/requestcomplete" component={RequestComplete} />
-      <Route path="/mypage/request" exact={true} component={RequestList} />
-      <Route path="/mypage/request/detail" component={RequestDetail} />
+      <Route path="/seller" exact={true} component={Seller} />
+      <Route path="/seller/create" component={Scooter_Create} />
+      <Route path="/seller/change" component={Scooter_Change} />
+      <Route path="/seller/delete" component={Scooter_Delete} />
+
     </HashRouter>
   );
 }

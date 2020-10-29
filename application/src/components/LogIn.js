@@ -5,7 +5,7 @@ import "./LogIn.css";
 
 class LogIn extends React.Component {
   state = {
-    login_id: "", // eslint-disable-line no-unused-vars
+    walletid: "", // eslint-disable-line no-unused-vars
     login_password: "", // eslint-disable-line no-unused-vars
   };
   handleChange = (e) => {
@@ -37,9 +37,9 @@ class LogIn extends React.Component {
               <div className="login_main__input">
                 <input
                   className="login_input__id"
-                  value={this.state.login_id} // eslint-disable-line no-unused-vars
+                  value={this.state.walletid} // eslint-disable-line no-unused-vars
                   onChange={this.handleChange}
-                  name="login_id"
+                  name="walletid"
                 />
                 <input
                   className="login_input__password"
@@ -50,6 +50,9 @@ class LogIn extends React.Component {
               </div>
             </div>
             <div className="login_btns">
+              <Link className="login_signup__btn" to="/seller">
+                Seller Log In
+              </Link>
               <Link className="login_signup__btn" to="/signup">
                 Sign Up
               </Link>

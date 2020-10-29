@@ -21,10 +21,7 @@ class MyPage extends React.Component {
                 Information Modification
               </Link>
               <Link className="mypage_list" to="/mypage/mylist">
-                List of Goods & Insurance
-              </Link>
-              <Link className="mypage_insurance" to="/mypage/request">
-                Insurance Requestion list
+                List of Goods 
               </Link>
             </div>
           </div>

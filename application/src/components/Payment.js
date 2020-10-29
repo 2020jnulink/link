@@ -32,14 +32,12 @@ class Payment extends React.Component {
             <div className="payment_main">
               <div className="payment_main__que">
                 <div className="payment_que__product">상품 금액</div>
-                <div className="payment_que__insurance">보험 금액</div>
                 <div className="payment_que__total">총 금액</div>
                 <div className="payment_que__number">카드 번호</div>
                 <div className="payment_que__password">카드 비밀번호</div>
                 <div className="payment_que__validity">카드 유효기간</div>
               </div>
               <div className="payment_main__var">
-                <div className="payment_var__var">:</div>
                 <div className="payment_var__var">:</div>
                 <div className="payment_var__var">:</div>
                 <div className="payment_var__var">:</div>
@@ -52,12 +50,6 @@ class Payment extends React.Component {
                   onChange={this.handleChange}
                   name="payment_product"
                   value={this.state.payment_product} // eslint-disable-line no-unused-vars
-                />
-                <input
-                  className="payment_input__insurance"
-                  onChange={this.handleChange}
-                  name="payment_insurance"
-                  value={this.state.payment_insurance} // eslint-disable-line no-unused-vars
                 />
                 <input
                   className="payment_input__total"

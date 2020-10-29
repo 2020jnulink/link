@@ -45,8 +45,7 @@ input {
   justify-content: space-evenly;
   margin-bottom: 50px;
 }
-.gotobuy_btn,
-.insurance_btn {
+.gotobuy_btn {
   background-color: #d3f1f8;
   width: 400px;
   height: 150px;

@@ -19,17 +19,14 @@ class PaymentCompleted extends React.Component {
             <div className="completed_main">
               <div className="completed_main__que">
                 <div className="completed_que__product">상품명</div>
-                <div className="completed_que__insurance">보험명</div>
                 <div className="completed_que__id">고객 ID</div>
               </div>
               <div className="completed_main__var">
                 <div className="completed_var__var">:</div>
                 <div className="completed_var__var">:</div>
-                <div className="completed_var__var">:</div>
               </div>
               <div className="completed_main__input">
                 <div className="completed_input__product" />
-                <div className="completed_input__insurance" />
                 <div className="completed_input__id" />
               </div>
             </div>

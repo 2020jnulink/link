@@ -18,7 +18,7 @@ class MyList extends React.Component {
             </div>
             <div className="mylist_main">
               <div className="mylist_main__name">
-                <div className="mylist_name__name">물품명 & 보험명</div>
+                <div className="mylist_name__name">물품명</div>
               </div>
               <div className="mylist_main__var">
                 <div className="mylist_var__var">:</div>

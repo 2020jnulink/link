@@ -6,8 +6,7 @@
 }
 
 .mypage_btns .mypage_inform,
-.mypage_btns .mypage_list,
-.mypage_btns .mypage_insurance {
+.mypage_btns .mypage_list {
   display: flex;
   justify-content: center;
   align-items: center;

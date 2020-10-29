@@ -1,0 +1,57 @@
+.change_main {
+  display: flex;
+}
+.change_main__que {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.change_que__name,
+.change_que__id,
+.change_que__password,
+.change_que__resident,
+.change_que__address,
+.change_que__phone {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.change_main__var {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.change_var__var {
+  margin-top: 30px;
+}
+
+.change_main__input {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 75px;
+}
+.change_input__name,
+.change_input__id,
+.change_input__password,
+.change_input__resident,
+.change_input__address,
+.change_input__phone {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.change_complete {
+  margin-top: 150px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.change_complete__btn {
+  background-color: #d3f1f8;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

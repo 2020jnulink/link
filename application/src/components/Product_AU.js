@@ -75,7 +75,7 @@ class Product_AU extends React.Component {
               </div>
             </div>
             <div className="product_buy">
-              <Link className="product_buy__btn" to="/shop/product/suggestion"
+              <Link className="product_buy__btn" to="/shop/product/paymentcompleted"
               onClick={this.handleClick}>
                 Buy
               </Link>

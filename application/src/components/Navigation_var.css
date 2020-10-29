@@ -9,8 +9,7 @@ a {
 .nav_signup,
 .nav_login,
 .nav_mypage,
-.nav_shop,
-.nav_insurance {
+.nav_shop {
   display: flex;
   justify-content: center;
   align-items: center;

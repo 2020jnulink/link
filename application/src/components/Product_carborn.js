@@ -5,6 +5,48 @@ import Navigation_var from "./Navigation_var"; // eslint-disable-line no-unused-
 import "./Product_carborn.css";
 
 class Product_carborn extends React.Component {
+  
+  state = {
+    productname: "Fabric",
+    manufactureer:"Hyper",
+    price:"20",
+    walletid:"5T6Y7U8I",
+    scooterkey:"MS0"
+  }
+
+  handleClick = (e) => {
+    //e.prevendDefault();
+  
+  
+  //   console.log("shop_info" + JSON.stringify(this.state))
+  //   fetch('http://localhost:3001/api/purchaseMusic', {
+  //       method: 'POST',
+  //       mode: 'cors',
+  //       headers: {
+  //           'Content-Type': 'application/json'
+  //       },
+  //       body:  JSON.stringify(this.state)
+  //     })
+  //   .then(response => console.log("response"))
+  //  .then(response => response.json());
+    
+      fetch("http://localhost:3001/api/purchaseScooter",{
+        method:'POST',
+        mode:'cors',
+        headers:{
+          'Content-Type': 'application/json'
+        },
+        body:JSON.stringify({
+          walletid: this.state.walletid,
+          scooterkey: this.state.scooterkey
+        })
+      })
+      .then(console.log(JSON.stringify({
+        walletid:"5T6Y7U8I"
+      })))
+      .then(res =>res.json());
+
+    }
   render() {
     return (
       <div className="frame">

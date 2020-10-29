@@ -37,6 +37,8 @@ func (s *SmartContract) Invoke(APIstub shim.ChaincodeStubInterface) pb.Response 
 		return s.changeScooterPrice(APIstub, args)
 	} else if function == "deleteScooter" {
 		return s.deleteScooter(APIstub, args)
+	} else if function == "registerWallet" {
+		return s.registerWallet(APIstub, args)
 	}
 	fmt.Println("Please check your function : " + function)
 	return shim.Error("Unknown function")
@@ -77,6 +79,26 @@ func (s *SmartContract) initWallet(APIstub shim.ChaincodeStubInterface) pb.Respo
 
 	return shim.Success(nil)
 }
+
+func (s *SmartContract) registerWallet(APIstub shim.ChaincodeStubInterface, args []string) pb.Response {
+
+	//Declare wallets
+	customer := Wallet{Name: "", ID: "", Token: "20"}
+	customer.ID = args[0]
+	customer.Name = args[1]
+	customer.Token = args[2]
+
+	// Convert customer to []byte
+	CustomerasJSONBytes, _ := json.Marshal(customer)
+
+	err := APIstub.PutState(customer.ID, CustomerasJSONBytes)
+	if err != nil {
+		return shim.Error("Failed to create asset " + customer.Name)
+	}
+
+	return shim.Success(nil)
+}
+
 func (s *SmartContract) getWallet(APIstub shim.ChaincodeStubInterface, args []string) pb.Response {
 
 	walletAsBytes, err := APIstub.GetState(args[0])

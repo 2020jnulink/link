@@ -1,0 +1,57 @@
+.delete_main {
+  display: flex;
+}
+.delete_main__que {
+  margin-top: 50px;
+  font-size: 30px;
+}
+.delete_que__name,
+.delete_que__id,
+.delete_que__password,
+.delete_que__resident,
+.delete_que__address,
+.delete_que__phone {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.delete_main__var {
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+.delete_var__var {
+  margin-top: 30px;
+}
+
+.delete_main__input {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 75px;
+}
+.delete_input__name,
+.delete_input__id,
+.delete_input__password,
+.delete_input__resident,
+.delete_input__address,
+.delete_input__phone {
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.delete_complete {
+  margin-top: 150px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.delete_complete__btn {
+  background-color: #d3f1f8;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}

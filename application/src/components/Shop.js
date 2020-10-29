@@ -15,6 +15,14 @@ import product_WR_img from "./img/Wheel_Runner.png";
 import product_WW_img from "./img/widewheel.png";
 
 class Shop extends React.Component {
+  state = {
+    scooterkey: "", // eslint-disable-line no-unused-vars
+  };
+  handleChange = (e) => {
+    this.setState({
+      [e.target.name]: e.target.value,
+    });
+  };
   render() {
     return (
       <div className="frame">
@@ -26,12 +34,17 @@ class Shop extends React.Component {
           <div className="main">
             <div className="main_title">
               <div className="main_title__text">Search</div>
-              <input></input>
+              <input
+                className="search_input"
+                value={this.state.scooterkey} // eslint-disable-line no-unused-vars
+                onChange={this.handleChange}
+                name="scooterkey"
+              />
             </div>
             <Link className="link_AU" to="/shop/product_AU">
               <img className="product_AU_img" src={product_AU_img} alt="img" />
             </Link>
-            <Link className="link_carborn" to="/shop/product_carborn">
+            {/* <Link className="link_carborn" to="/shop/product_carborn">
               <img
                 className="product_carborn_img"
                 src={product_carborn_img}
@@ -81,7 +94,7 @@ class Shop extends React.Component {
             </Link>
             <Link className="link_WW" to="/shop/product_WW">
               <img className="product_WW_img" src={product_WW_img} alt="img" />
-            </Link>
+            </Link> */}
           </div>
         </body>
         <div className="nav_var">
