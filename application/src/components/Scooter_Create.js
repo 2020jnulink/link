@@ -15,7 +15,7 @@ class Scooter_Create extends React.Component {
     state = {
       title: "", // eslint-disable-line no-unused-vars
       manufacturer: "", // eslint-disable-line no-unused-vars
-      price: "20", // eslint-disable-line no-unused-vars
+      price: 20, // eslint-disable-line no-unused-vars
       walletid: "", // eslint-disable-line no-unused-vars
     };
     handleChange = (e) => {
@@ -30,8 +30,6 @@ class Scooter_Create extends React.Component {
         showPopup: false,
       };
     }
-
-
     verifyFile = (files) => {
       if (files && files.length > 0) {
         const currentFile = files[0];
@@ -76,29 +74,6 @@ class Scooter_Create extends React.Component {
         }
       }
     };
-
-    handleClick = (e) => {
-    
-      console.log("작동");
-      fetch("http://localhost:3001/api/setScooter",{
-        method:'POST',
-        mode:'cors',
-        headers:{
-          'Content-Type': 'application/json'
-        },
-        body:JSON.stringify({
-          productname: this.state.title,
-          manufacturer: this.state.manufacturer,
-          price: this.state.price,
-          walletid: this.state.walletid
-
-        })
-      })
-      .then(res =>res.json());
-  
-  }
-
-
   render() {
     const { imgSrc } = this.state;
     return (
@@ -186,8 +161,7 @@ class Scooter_Create extends React.Component {
               
             </div>
             <div className="create_complete">
-              <Link className="create_complete__btn" to="/seller"
-              onClick={this.handleClick}>
+              <Link className="create_complete__btn" to="/seller">
                 Confirm
               </Link>
             </div>

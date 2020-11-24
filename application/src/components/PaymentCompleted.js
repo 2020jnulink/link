@@ -4,12 +4,6 @@ import Navigation_var from "./Navigation_var"; // eslint-disable-line no-unused-
 import "./PaymentCompleted.css";
 
 class PaymentCompleted extends React.Component {
-
-  state = {
-    walletid: "5T6Y7U8I",
-    productname: "Fabric"
-  }
-
   render() {
     return (
       <div className="frame">
@@ -24,11 +18,17 @@ class PaymentCompleted extends React.Component {
             </div>
             <div className="completed_main">
               <div className="completed_main__que">
-                <div className="completed_que__product">상품명:    {this.state.productname}</div>
-                <div className="completed_que__id">고객 ID :     {this.state.walletid} </div>
+                <div className="completed_que__product">상품명</div>
+                <div className="completed_que__id">고객 ID</div>
               </div>
-
-
+              <div className="completed_main__var">
+                <div className="completed_var__var">:</div>
+                <div className="completed_var__var">:</div>
+              </div>
+              <div className="completed_main__input">
+                <div className="completed_input__product" />
+                <div className="completed_input__id" />
+              </div>
             </div>
             <div className="completed_complete">
               <Link className="completed_complete__btn" to="/">

@@ -70,7 +70,7 @@ class Product_AU extends React.Component {
                 <div className="product_text__model">
                   모델명 : REDWINGBLACK8A
                 </div>
-                <div className="product_text__manufact">제조회사 : {this.state.manufactureer}</div>
+                <div className="product_text__manufact">제조회사 : {this.state.singer}</div>
                 <div className="product_text__price">가격 : {this.state.price}</div>
               </div>
             </div>

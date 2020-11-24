@@ -25,6 +25,7 @@ import Seller from "./components/Seller";
 import Scooter_Create from "./components/Scooter_Create";
 import Scooter_Change from "./components/Scooter_Change";
 import Scooter_Delete from "./components/Scooter_Delete";
+import Product_test from "./components/Product_test";
 
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
       <Route path="/seller/create" component={Scooter_Create} />
       <Route path="/seller/change" component={Scooter_Change} />
       <Route path="/seller/delete" component={Scooter_Delete} />
+      <Route path="/shop/product_test" component={Product_test} />
 
     </HashRouter>
   );

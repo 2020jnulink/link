@@ -17,27 +17,6 @@ class SignUp extends React.Component {
       [e.target.name]: e.target.value,
     });
   };
-
-  handleClick = (e) => {
-    
-      fetch("http://localhost:3001/api/registerWallet",{
-        method:'POST',
-        mode:'cors',
-        headers:{
-          'Content-Type': 'application/json'
-        },
-        body:JSON.stringify({
-          walletid: this.state.signup_name,
-          name: this.state.signup_id,
-          token: "100"
-        })
-      })
-      .then(res =>res.json());
-  
-  }
-
-
-
   render() {
     return (
       <div className="frame">
@@ -109,8 +88,7 @@ class SignUp extends React.Component {
               </div>
             </div>
             <div className="signup_complete">
-              <Link className="signup_complete__btn" to="/login"
-              onClick={this.handleClick}>
+              <Link className="signup_complete__btn" to="/login">
                 Sign Up
               </Link>
             </div>

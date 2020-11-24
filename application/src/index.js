@@ -1,8 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
 import "./index.css";
-import App from "./App";
+import App from "./App2";
+
+require('dotenv').config();
+const Koa = require('koa');
+const Router = require('koa-router')
+const bodyParser = require('koa-bodyparser')
+
 
 ReactDOM.render(
   <React.StrictMode>

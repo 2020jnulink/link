@@ -44,6 +44,9 @@ class Shop extends React.Component {
             <Link className="link_AU" to="/shop/product_AU">
               <img className="product_AU_img" src={product_AU_img} alt="img" />
             </Link>
+            <Link className="link_AU" to="/shop/product_test">
+              <img className="product_AU_img" src={product_AU_img} alt="img" />
+            </Link>
             {/* <Link className="link_carborn" to="/shop/product_carborn">
               <img
                 className="product_carborn_img"
